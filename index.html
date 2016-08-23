@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Typescript Modules</title>
+    
+    <!-- get systemJS from somewhere -->
+    <script src="http://code.angularjs.org/tools/system.js"></script>
+  </head>
+  <body>
+
+  	<script>
+  	  // set our baseURL reference path
+  	  System.config({
+  	    baseURL: './'
+  	  });
+
+  	  // loads /js/main.js
+  	  System.import('main-module.js');
+  	</script>
+
+    Open your js console.
+  </body>
+</html>

@@ -1,0 +1,1 @@
+export var someVar = "Hello World";

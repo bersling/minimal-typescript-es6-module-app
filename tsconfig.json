@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "system",
+    "target": "es5"
+  },
+  "files": [
+    "main-module.ts",
+    "some-es6-module.ts"
+  ]
+}
